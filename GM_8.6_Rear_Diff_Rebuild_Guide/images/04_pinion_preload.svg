@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="900" height="480" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="480" fill="#fff"/>
+  <rect x="1" y="1" width="898" height="478" fill="none" stroke="#2B579A" stroke-width="2"/>
+  <text x="450" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F3864">Measuring Pinion Bearing Preload</text>
+  <!-- Housing front view -->
+  <circle cx="300" cy="260" r="120" fill="#E0E0E0" stroke="#4A5568" stroke-width="3"/>
+  <!-- Yoke (front view) -->
+  <circle cx="300" cy="260" r="40" fill="#C0C0C0" stroke="#666" stroke-width="2"/>
+  <!-- Hex nut -->
+  <polygon points="300,230 326,245 326,275 300,290 274,275 274,245" fill="#888" stroke="#444" stroke-width="2"/>
+  <circle cx="300" cy="260" r="10" fill="#666" stroke="#444"/>
+  <!-- Yoke ears -->
+  <rect x="240" y="245" width="25" height="30" fill="#B0B0B0" stroke="#666" stroke-width="2" rx="3"/>
+  <rect x="335" y="245" width="25" height="30" fill="#B0B0B0" stroke="#666" stroke-width="2" rx="3"/>
+  <!-- Torque wrench -->
+  <line x1="330" y1="260" x2="560" y2="190" stroke="#888" stroke-width="8" stroke-linecap="round"/>
+  <line x1="330" y1="260" x2="560" y2="190" stroke="#AAA" stroke-width="5" stroke-linecap="round"/>
+  <!-- Gauge on wrench -->
+  <circle cx="445" cy="225" r="25" fill="white" stroke="#333" stroke-width="2"/>
+  <text x="445" y="221" text-anchor="middle" font-size="9" fill="#333">in·lb</text>
+  <line x1="445" y1="230" x2="457" y2="218" stroke="#CC0000" stroke-width="2"/>
+  <!-- Rotation arrow arc -->
+  <path d="M 370,160 A 90,90 0 1,1 240,170" fill="none" stroke="#2B579A" stroke-width="3"/>
+  <polygon points="370,160 358,150 362,168" fill="#2B579A"/>
+  <text x="290" y="405" text-anchor="middle" font-size="11" font-weight="bold" fill="#2B579A">Turn slowly — measure rotating resistance</text>
+  <!-- Labels -->
+  <g font-size="12" fill="#1F3864">
+    <text x="120" y="150">Pinion Nut</text>
+    <line x1="170" y1="152" x2="290" y2="248" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="110" y="350">Pinion Yoke Ears</text>
+    <line x1="210" y1="342" x2="250" y2="268" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="580" y="165">Inch-Pound</text>
+    <text x="580" y="180">Torque Wrench</text>
+    <line x1="578" y1="172" x2="470" y2="225" stroke="#1F3864" stroke-width="0.8"/>
+  </g>
+  <!-- Spec box -->
+  <rect x="610" y="260" width="260" height="190" rx="5" fill="#D5E8F0" stroke="#2B579A" stroke-width="2"/>
+  <text x="740" y="282" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B579A">Preload Specs</text>
+  <text x="625" y="310" font-size="12" font-weight="bold" fill="#2B7A2B">NEW bearings:</text>
+  <text x="625" y="330" font-size="12" fill="#333">  15 – 25 inch-pounds</text>
+  <text x="625" y="360" font-size="12" font-weight="bold" fill="#D97706">USED bearings:</text>
+  <text x="625" y="380" font-size="12" fill="#333">  8 – 14 inch-pounds</text>
+  <text x="625" y="415" font-size="11" fill="#CC0000">⚠ Carrier must be removed</text>
+  <text x="625" y="432" font-size="11" fill="#CC0000">   for accurate measurement</text>
+</svg>

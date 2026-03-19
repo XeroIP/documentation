@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="430" fill="#fff"/>
+  <rect x="1" y="1" width="898" height="428" fill="none" stroke="#2B579A" stroke-width="2"/>
+  <text x="450" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F3864">Crush Sleeve vs. Solid Pinion Spacer</text>
+  <!-- Divider -->
+  <line x1="450" y1="50" x2="450" y2="420" stroke="#CCC" stroke-width="2"/>
+  <circle cx="450" cy="180" r="20" fill="#2B579A"/><text x="450" y="185" text-anchor="middle" fill="white" font-weight="bold" font-size="13">VS</text>
+  <!-- LEFT: Crush Sleeve -->
+  <text x="225" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B579A">Crush Sleeve (OEM)</text>
+  <rect x="195" y="85" width="60" height="170" fill="#E8A030" stroke="#A07020" stroke-width="2" rx="3"/>
+  <g stroke="#C08820" stroke-width="1" opacity="0.6">
+    <line x1="200" y1="95" x2="250" y2="95"/><line x1="200" y1="105" x2="250" y2="105"/>
+    <line x1="200" y1="115" x2="250" y2="115"/><line x1="200" y1="125" x2="250" y2="125"/>
+    <line x1="200" y1="135" x2="250" y2="135"/><line x1="200" y1="145" x2="250" y2="145"/>
+    <line x1="200" y1="155" x2="250" y2="155"/><line x1="200" y1="165" x2="250" y2="165"/>
+    <line x1="200" y1="175" x2="250" y2="175"/><line x1="200" y1="185" x2="250" y2="185"/>
+    <line x1="200" y1="195" x2="250" y2="195"/><line x1="200" y1="205" x2="250" y2="205"/>
+    <line x1="200" y1="215" x2="250" y2="215"/><line x1="200" y1="225" x2="250" y2="225"/>
+    <line x1="200" y1="235" x2="250" y2="235"/><line x1="200" y1="245" x2="250" y2="245"/>
+  </g>
+  <text x="100" y="290" font-size="11" fill="#2B7A2B">✓ OEM replacement</text>
+  <text x="100" y="310" font-size="11" fill="#2B7A2B">✓ Cheap (~$5–10)</text>
+  <text x="100" y="334" font-size="11" fill="#CC0000">✗ One-time use</text>
+  <text x="100" y="354" font-size="11" fill="#CC0000">✗ Easy to over-crush</text>
+  <text x="100" y="374" font-size="11" fill="#CC0000">✗ Must replace if you overshoot</text>
+  <text x="100" y="394" font-size="11" fill="#CC0000">✗ Tedious to set up</text>
+  <!-- RIGHT: Solid Spacer -->
+  <text x="675" y="60" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B579A">Solid Pinion Spacer</text>
+  <rect x="645" y="85" width="60" height="140" fill="#C0C0D0" stroke="#666" stroke-width="2" rx="3"/>
+  <text x="675" y="162" text-anchor="middle" font-size="11" font-weight="bold" fill="#555">SOLID</text>
+  <!-- Select shim -->
+  <rect x="638" y="232" width="74" height="14" fill="#FF8C00" stroke="#CC6600" stroke-width="2" rx="2"/>
+  <text x="675" y="243" text-anchor="middle" font-size="7" font-weight="bold" fill="white">SELECT SHIM</text>
+  <text x="720" y="243" font-size="10" fill="#666">← Sets preload</text>
+  <text x="550" y="290" font-size="11" fill="#2B7A2B">✓ Reusable — adjust anytime</text>
+  <text x="550" y="310" font-size="11" fill="#2B7A2B">✓ Cannot over-crush</text>
+  <text x="550" y="330" font-size="11" fill="#2B7A2B">✓ Preload set by shim, not torque feel</text>
+  <text x="550" y="350" font-size="11" fill="#2B7A2B">✓ Makes depth changes easy</text>
+  <text x="550" y="374" font-size="11" fill="#D97706">✗ Costs $30–50 more</text>
+  <text x="550" y="400" font-size="11" font-weight="bold" fill="#2B7A2B">✓ STRONGLY RECOMMENDED</text>
+</svg>

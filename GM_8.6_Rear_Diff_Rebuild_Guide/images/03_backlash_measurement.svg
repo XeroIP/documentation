@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#fff"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="#2B579A" stroke-width="2"/>
+  <text x="450" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F3864">Measuring Ring Gear Backlash with Dial Indicator</text>
+
+  <!-- Housing -->
+  <rect x="100" y="80" width="500" height="380" rx="15" fill="#E8E8E8" stroke="#4A5568" stroke-width="3"/>
+
+  <!-- Ring gear (circle with teeth) -->
+  <circle cx="350" cy="270" r="130" fill="none" stroke="#C0A060" stroke-width="4"/>
+  <circle cx="350" cy="270" r="115" fill="none" stroke="#C0A060" stroke-width="2"/>
+  <g stroke="#8B7340" stroke-width="2">
+    <line x1="350" y1="138" x2="350" y2="148"/><line x1="383" y1="140" x2="381" y2="150"/>
+    <line x1="414" y1="147" x2="410" y2="157"/><line x1="441" y1="160" x2="435" y2="169"/>
+    <line x1="463" y1="178" x2="455" y2="186"/><line x1="478" y1="200" x2="469" y2="207"/>
+    <line x1="480" y1="270" x2="470" y2="270"/><line x1="478" y1="340" x2="469" y2="333"/>
+    <line x1="463" y1="362" x2="455" y2="354"/><line x1="441" y1="380" x2="435" y2="371"/>
+    <line x1="414" y1="393" x2="410" y2="383"/><line x1="383" y1="400" x2="381" y2="390"/>
+    <line x1="350" y1="402" x2="350" y2="392"/><line x1="317" y1="400" x2="319" y2="390"/>
+    <line x1="286" y1="393" x2="290" y2="383"/><line x1="259" y1="380" x2="265" y2="371"/>
+    <line x1="237" y1="362" x2="245" y2="354"/><line x1="222" y1="340" x2="231" y2="333"/>
+    <line x1="220" y1="270" x2="230" y2="270"/><line x1="222" y1="200" x2="231" y2="207"/>
+    <line x1="237" y1="178" x2="245" y2="186"/><line x1="259" y1="160" x2="265" y2="169"/>
+    <line x1="286" y1="147" x2="290" y2="157"/><line x1="317" y1="140" x2="319" y2="150"/>
+  </g>
+
+  <!-- Pinion gear -->
+  <circle cx="350" cy="130" r="25" fill="#C0A060" stroke="#8B7340" stroke-width="2"/>
+
+  <!-- Dial indicator -->
+  <circle cx="530" cy="150" r="38" fill="white" stroke="#333" stroke-width="3"/>
+  <text x="530" y="143" text-anchor="middle" font-size="13" font-weight="bold" fill="#333">.000</text>
+  <line x1="530" y1="155" x2="548" y2="138" stroke="#CC0000" stroke-width="2"/>
+  <circle cx="530" cy="157" r="3" fill="#CC0000"/>
+  <!-- Magnetic base -->
+  <rect x="505" y="190" width="50" height="35" fill="#555" stroke="#333" stroke-width="2" rx="3"/>
+  <rect x="497" y="225" width="66" height="15" fill="#444" stroke="#333" stroke-width="2" rx="2"/>
+  <!-- Stem to gear tooth -->
+  <line x1="530" y1="188" x2="488" y2="230" stroke="#333" stroke-width="3"/>
+  <circle cx="488" cy="230" r="4" fill="#CC0000"/>
+
+  <!-- Backlash arrows -->
+  <text x="510" y="268" font-size="13" font-weight="bold" fill="#2B579A">Backlash</text>
+  <line x1="530" y1="278" x2="530" y2="295" stroke="#2B579A" stroke-width="2" marker-end="url(#arrowB)"/>
+  <line x1="530" y1="330" x2="530" y2="313" stroke="#2B579A" stroke-width="2" marker-end="url(#arrowB)"/>
+  <defs><marker id="arrowB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2B579A"/></marker></defs>
+  <text x="545" y="300" font-size="10" fill="#555">Rock ring gear</text>
+  <text x="545" y="314" font-size="10" fill="#555">back &amp; forth</text>
+
+  <!-- Labels -->
+  <g font-size="12" fill="#1F3864">
+    <text x="650" y="115">Dial Indicator</text>
+    <line x1="648" y1="113" x2="568" y2="148" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="650" y="155">Magnetic Base</text>
+    <line x1="648" y1="153" x2="563" y2="210" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="650" y="195">Plunger contacts</text>
+    <text x="650" y="210">tooth face at 90°</text>
+    <line x1="648" y1="200" x2="492" y2="230" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="115" y="420">Ring Gear</text>
+    <line x1="168" y1="412" x2="280" y2="350" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="115" y="110">Pinion (hold still)</text>
+    <line x1="228" y1="108" x2="328" y2="128" stroke="#1F3864" stroke-width="0.8"/>
+  </g>
+
+  <!-- Spec box -->
+  <rect x="630" y="310" width="250" height="170" rx="5" fill="#D5E8F0" stroke="#2B579A" stroke-width="2"/>
+  <text x="755" y="332" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B579A">Specifications</text>
+  <text x="645" y="358" font-size="11" fill="#333">• Target: 0.006" – 0.010"</text>
+  <text x="645" y="378" font-size="11" fill="#333">• Ideal: 0.008"</text>
+  <text x="645" y="398" font-size="11" fill="#333">• Check at 4 points (90° apart)</text>
+  <text x="645" y="418" font-size="11" fill="#333">• All readings within 0.002"</text>
+  <text x="645" y="438" font-size="11" fill="#333">• Hold pinion stationary</text>
+  <text x="645" y="458" font-size="11" fill="#333">• Measure perpendicular to tooth</text>
+</svg>

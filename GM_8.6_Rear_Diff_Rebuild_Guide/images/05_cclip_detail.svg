@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="420" fill="#fff"/>
+  <rect x="1" y="1" width="898" height="418" fill="none" stroke="#2B579A" stroke-width="2"/>
+  <text x="450" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F3864">C-Clip Axle Shaft Retention — GM 8.6"</text>
+  <!-- Left: Assembled -->
+  <text x="225" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B579A">Assembled (Installed)</text>
+  <rect x="100" y="75" width="300" height="260" rx="10" fill="#E0D8C8" stroke="#8B7340" stroke-width="2"/>
+  <text x="250" y="95" text-anchor="middle" font-size="11" fill="#8B7340">Carrier</text>
+  <!-- Axle shaft -->
+  <rect x="30" y="185" width="350" height="30" fill="#B0B0B0" stroke="#666" stroke-width="2"/>
+  <!-- Groove -->
+  <rect x="310" y="185" width="15" height="30" fill="#888" stroke="#555"/>
+  <!-- C-clip -->
+  <rect x="308" y="180" width="20" height="40" fill="#FFD700" stroke="#AA8800" stroke-width="2" rx="3"/>
+  <!-- Cross pin -->
+  <rect x="240" y="150" width="20" height="100" fill="#999" stroke="#555" stroke-width="2" rx="2"/>
+  <!-- Lock bolt -->
+  <circle cx="250" cy="265" r="8" fill="#777" stroke="#444" stroke-width="1.5"/>
+  <line x1="250" y1="273" x2="250" y2="295" stroke="#555" stroke-width="2"/>
+  <!-- Labels -->
+  <g font-size="11" fill="#1F3864">
+    <text x="40" y="170">Axle Shaft</text><line x1="102" y1="168" x2="120" y2="188" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="40" y="370">C-Clip</text><line x1="68" y1="358" x2="318" y2="222" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="290" y="370">Cross Pin</text><line x1="310" y1="358" x2="262" y2="250" stroke="#1F3864" stroke-width="0.8"/>
+    <text x="280" y="320">Lock Bolt (8mm)</text><line x1="305" y1="308" x2="258" y2="272" stroke="#1F3864" stroke-width="0.8"/>
+  </g>
+  <!-- Right: Removal Sequence -->
+  <text x="675" y="55" text-anchor="middle" font-size="14" font-weight="bold" fill="#2B579A">Removal Sequence</text>
+  <g font-size="12">
+    <circle cx="524" cy="95" r="14" fill="#2B579A"/><text x="524" y="100" text-anchor="middle" fill="white" font-weight="bold" font-size="13">1</text>
+    <text x="548" y="100" fill="#333">Remove lock bolt (8mm)</text>
+    <circle cx="524" cy="145" r="14" fill="#2B579A"/><text x="524" y="150" text-anchor="middle" fill="white" font-weight="bold" font-size="13">2</text>
+    <text x="548" y="150" fill="#333">Slide cross pin out of carrier</text>
+    <circle cx="524" cy="195" r="14" fill="#2B579A"/><text x="524" y="200" text-anchor="middle" fill="white" font-weight="bold" font-size="13">3</text>
+    <text x="548" y="200" fill="#333">Push axle shaft inward</text>
+    <circle cx="524" cy="245" r="14" fill="#2B579A"/><text x="524" y="250" text-anchor="middle" fill="white" font-weight="bold" font-size="13">4</text>
+    <text x="548" y="250" fill="#333">Remove C-clip from groove</text>
+    <circle cx="524" cy="295" r="14" fill="#2B579A"/><text x="524" y="300" text-anchor="middle" fill="white" font-weight="bold" font-size="13">5</text>
+    <text x="548" y="300" fill="#333">Slide axle shaft out carefully</text>
+  </g>
+  <!-- Warning -->
+  <rect x="490" y="340" width="390" height="65" rx="5" fill="#F0D5D5" stroke="#CC0000" stroke-width="2"/>
+  <text x="505" y="360" font-size="11" font-weight="bold" fill="#CC0000">⚠ Inspect C-clips for wear grooves before</text>
+  <text x="505" y="378" font-size="11" fill="#CC0000">reuse. Worn clips allow shaft to walk out</text>
+  <text x="505" y="396" font-size="11" fill="#CC0000">under load — replace if any doubt.</text>
+</svg>

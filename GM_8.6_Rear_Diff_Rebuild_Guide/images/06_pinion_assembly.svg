@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" font-family="Arial, Helvetica, sans-serif">
+  <rect width="900" height="520" fill="#fff"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="#2B579A" stroke-width="2"/>
+  <text x="450" y="28" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F3864">Pinion Assembly — Exploded View</text>
+  <!-- Assembly order arrow -->
+  <text x="50" y="75" font-size="13" font-weight="bold" fill="#2B579A">Top</text>
+  <text x="32" y="90" font-size="10" fill="#2B579A">(outside)</text>
+  <line x1="65" y1="105" x2="65" y2="465" stroke="#2B579A" stroke-width="3" marker-end="url(#arrP)"/>
+  <defs><marker id="arrP" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2B579A"/></marker></defs>
+  <text x="35" y="485" font-size="13" font-weight="bold" fill="#2B579A">Bottom</text>
+  <text x="37" y="500" font-size="10" fill="#2B579A">(inside)</text>
+  <!-- Pinion shaft -->
+  <rect x="338" y="100" width="24" height="300" fill="#C0C0C0" stroke="#777" stroke-width="2"/>
+  <!-- Washer + Nut -->
+  <rect x="330" y="75" width="40" height="12" fill="#999" stroke="#555" rx="2"/>
+  <text x="405" y="86" font-size="11" fill="#555">Washer + Nut</text>
+  <!-- Yoke -->
+  <polygon points="305,100 395,100 405,130 295,130" fill="#AAA" stroke="#666" stroke-width="2"/>
+  <text x="200" y="120" font-size="12" font-weight="bold" fill="#666" text-anchor="end">Pinion Yoke</text>
+  <line x1="205" y1="118" x2="298" y2="118" stroke="#666" stroke-width="1.5" marker-end="url(#arrP)"/>
+  <!-- Seal -->
+  <rect x="310" y="140" width="80" height="20" fill="#D04040" stroke="#900" stroke-width="2" rx="2"/>
+  <text x="430" y="155" font-size="12" font-weight="bold" fill="#900">Pinion Seal</text>
+  <line x1="428" y1="153" x2="392" y2="150" stroke="#900" stroke-width="1.5"/>
+  <!-- Front bearing -->
+  <rect x="315" y="170" width="70" height="25" fill="#A0A0A0" stroke="#707070" stroke-width="3"/>
+  <text x="200" y="188" font-size="12" font-weight="bold" fill="#707070" text-anchor="end">Front Bearing</text>
+  <line x1="205" y1="186" x2="318" y2="183" stroke="#707070" stroke-width="1.5" marker-end="url(#arrP)"/>
+  <!-- Crush sleeve -->
+  <rect x="332" y="210" width="36" height="70" fill="#E8A030" stroke="#A07020" stroke-width="2"/>
+  <text x="430" y="245" font-size="12" font-weight="bold" fill="#A07020">CRUSH SLEEVE</text>
+  <text x="430" y="262" font-size="10" fill="#666">(or Solid Pinion Spacer)</text>
+  <line x1="428" y1="248" x2="370" y2="248" stroke="#A07020" stroke-width="1.5"/>
+  <!-- Rear bearing -->
+  <rect x="315" y="295" width="70" height="25" fill="#A0A0A0" stroke="#707070" stroke-width="3"/>
+  <text x="200" y="313" font-size="12" font-weight="bold" fill="#707070" text-anchor="end">Rear Bearing</text>
+  <line x1="205" y1="311" x2="318" y2="308" stroke="#707070" stroke-width="1.5" marker-end="url(#arrP)"/>
+  <!-- DEPTH SHIM -->
+  <rect x="312" y="330" width="76" height="16" fill="#FF8C00" stroke="#CC6600" stroke-width="2"/>
+  <text x="430" y="340" font-size="12" font-weight="bold" fill="#CC6600">DEPTH SHIM</text>
+  <text x="430" y="357" font-size="10" fill="#666">Controls pinion depth position</text>
+  <text x="430" y="372" font-size="10" fill="#666">Adjust based on pinion head markings</text>
+  <line x1="428" y1="342" x2="390" y2="338" stroke="#CC6600" stroke-width="1.5"/>
+  <!-- Pinion gear head -->
+  <rect x="300" y="360" width="100" height="60" rx="5" fill="#C0A060" stroke="#8B7340" stroke-width="2"/>
+  <text x="350" y="395" text-anchor="middle" font-size="11" font-weight="bold" fill="#8B7340">Pinion Gear</text>
+  <!-- Depth number -->
+  <circle cx="350" cy="430" r="14" fill="#C0A060" stroke="#8B7340" stroke-width="2"/>
+  <text x="350" y="435" text-anchor="middle" font-size="10" fill="#333">+2</text>
+  <!-- Depth calc box -->
+  <rect x="530" y="380" width="340" height="120" rx="5" fill="#F0EED5" stroke="#D97706" stroke-width="2"/>
+  <text x="700" y="400" text-anchor="middle" font-size="13" font-weight="bold" fill="#D97706">Pinion Depth Shim Calc</text>
+  <text x="545" y="422" font-size="11" fill="#333">Old pinion marking: e.g. +2</text>
+  <text x="545" y="439" font-size="11" fill="#333">New pinion marking: e.g. -1</text>
+  <text x="545" y="456" font-size="11" fill="#333">Difference: 3 (0.003")</text>
+  <text x="545" y="478" font-size="11" font-weight="bold" fill="#2B7A2B">New # LOWER → thicker shim</text>
+  <text x="545" y="493" font-size="11" font-weight="bold" fill="#CC0000">New # HIGHER → thinner shim</text>
+</svg>
