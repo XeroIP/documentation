@@ -10,8 +10,8 @@
       "flags": ["DOTALL"]
     },
     {
-      "name": "build-pinout.py (J1/J3 tables)",
-      "path": "../../home-automation/sprinkler-controller/docs/build-pinout.py",
+      "name": "pin_data.py (J1/J3 tables)",
+      "path": "../../home-automation/sprinkler-controller/docs/pin_data.py",
       "pattern": "GPIO(?P<gpio>\\d+)\\s*\\u2192\\s*IN\\d+\\s*\\u00b7\\s*Zone\\s*(?P<zone>\\d+)"
     },
     {
