@@ -1,0 +1,23 @@
+{
+  "_comment": "Real, working config for the sprinkler-controller project: checks that zone->GPIO agrees across its ESPHome YAML config, the pinout diagram's generator script, and the wiring reference HTML table. Paths are relative to wherever you invoke check_cross_reference.py from; adjust if you copy this elsewhere.",
+  "join_key": "zone",
+  "compare_fields": ["gpio"],
+  "sources": [
+    {
+      "name": "esphome-yaml (sprinkler-controller-1.yaml)",
+      "path": "../../home-automation/sprinkler-controller/esphome/sprinkler-controller-1.yaml",
+      "pattern": "id:\\s*relay_(?P<zone>\\d+).*?number:\\s*GPIO(?P<gpio>\\d+)",
+      "flags": ["DOTALL"]
+    },
+    {
+      "name": "build-pinout.py (J1/J3 tables)",
+      "path": "../../home-automation/sprinkler-controller/docs/build-pinout.py",
+      "pattern": "GPIO(?P<gpio>\\d+)\\s*\\u2192\\s*IN\\d+\\s*\\u00b7\\s*Zone\\s*(?P<zone>\\d+)"
+    },
+    {
+      "name": "wiring-reference.html (Table A)",
+      "path": "../../home-automation/sprinkler-controller/docs/reference/wiring-reference.html",
+      "pattern": "<tr><td>(?P<zone>\\d+)</td><td>GPIO(?P<gpio>\\d+)</td>"
+    }
+  ]
+}
