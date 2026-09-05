@@ -126,6 +126,12 @@ the "same fact in three places" problem keeps recurring, look at
 wiring diagrams from a single structured YAML spec via GraphViz) — it
 fixes this at the root by having exactly one source of truth that both the
 diagram and any downstream check are generated from, instead of comparing
-N independently-maintained copies after the fact. Not adopted here; worth
-knowing about if the problem recurs badly enough to justify adopting a new
-diagramming tool.
+N independently-maintained copies after the fact.
+
+**Update**: adopted since this was written — `home-automation/sprinkler-controller`
+migrated five diagrams to WireViz. See `../diagram-generation-patterns.md`
+in this repo for the real gotchas hit doing that (a Windows encoding
+crash, an HTML-escaping bug with a misleading error, WireViz's
+per-pin-text limitation and its workaround, the single-source-of-truth
+generator pattern) and a decision matrix for when WireViz is the right
+tool versus plain Graphviz `dot` versus staying hand-drawn.
